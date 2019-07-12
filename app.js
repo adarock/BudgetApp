@@ -371,6 +371,10 @@ var controller = (function(budgetCtrl, UICtrl) {
             ID = parseInt(itemID.split("-")[1]);
         }
 
+        console.log(itemID);
+        console.log(itemID.split("-")[0]);
+        console.log(itemID.split("-")[1]);
+
         // Remove item from budgetController
         budgetCtrl.deleteItem(type, ID);
 
